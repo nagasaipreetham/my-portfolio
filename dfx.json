@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "preetham_backend": {
+      "main": "src/preetham_backend/main.mo",
+      "type": "motoko"
+    },
+    "preetham_frontend": {
+      "dependencies": [
+        "preetham_backend"
+      ],
+      "source": [
+        "src/preetham_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "preetham_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
