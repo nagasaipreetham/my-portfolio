@@ -1,5 +1,1 @@
-frontend :https://77ksm-liaaa-aaaal-qm6ca-cai.icp0.io/ 
 
-backend : https://a4gq6-oaaaa-aaaab-qaa4q-cai.raw.icp0.io/?id=7kndb-kaaaa-aaaal-qm6bq-cai
-
-passphrase : preetham@123
