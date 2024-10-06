@@ -2,15 +2,164 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>IC Hello Starter</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preetham Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #f7cac9, #92a8d1);
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        .header {
+            background-color: #4a90e2;
+            color: #fff;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .header p {
+            font-size: 1.5em;
+            margin-top: 10px;
+            font-weight: 300;
+        }
+
+        .container {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .about-me {
+            background: #ffffff;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .about-me h2 {
+            color: #4a90e2;
+        }
+
+        .about-me p {
+            font-size: 1.2em;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .projects {
+            padding-top: 20px;
+        }
+
+        .projects h2 {
+            color: #ff6f61;
+        }
+
+        .project-card {
+            background: #f9f9f9;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            display: inline-block;
+            width: calc(33% - 40px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+
+        .project-card a {
+            text-decoration: none;
+            color: #4a90e2;
+            font-weight: 700;
+        }
+
+        .project-card p {
+            color: #666;
+        }
+
+        .contact {
+            background: #4a90e2;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .contact h2 {
+            margin: 0 0 20px;
+        }
+
+        .contact button {
+            background: #ff6f61;
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .contact button:hover {
+            background: #e05245;
+        }
+    </style>
 </head>
 
 <body>
-  <div id="root"></div>
-  <script type="module" src="/src/main.js"></script>
+    <div class="header">
+        <h1>Naga Sai Preetham Maddula</h1>
+        <p>Full Stack Java | C lang | Web Development</p>
+    </div>
+
+    <div class="container">
+        <div class="about-me">
+            <h2>About Me</h2>
+            <p>Student at Centurion University of Technology and Management pursuing Bachelor’s degree in Computer Science and Engineering, working Java and Dsa, Web 3.0, front end Web Development.</p>
+        </div>
+
+        <div class="projects">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <a href="https://deployment-link-1.com" target="_blank">
+                    <h3>Project 1</h3>
+                </a>
+                <p>A website that provides great user experience for online shopping.</p>
+            </div>
+            <div class="project-card">
+                <a href="https://deployment-link-2.com" target="_blank">
+                    <h3>Project 2</h3>
+                </a>
+                <p>An app that helps users organize their daily tasks more efficiently.</p>
+            </div>
+            <div class="project-card">
+                <a href="https://deployment-link-3.com" target="_blank">
+                    <h3>Project 3</h3>
+                </a>
+                <p>Personal blog platform showcasing posts, experiences, and tips on web development.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact">
+        <h2>Let's Work Together!</h2>
+        <a href="#">
+            <button>Contact Me</button>
+        </a>
+    </div>
 </body>
 
 </html>
